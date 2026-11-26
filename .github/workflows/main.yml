@@ -8,7 +8,7 @@ jobs:
     - name: Start Afk-bot
       uses: Minionguyjpro/Afk-bot@v1.0.4
       with:
-        ip: stallion-reporter.tun.ply.gg
+        ip: stallion-reporter.tun.ply.gg:25565
         name: AFKBOT
         port: 25565
         auto-night-skip: true
