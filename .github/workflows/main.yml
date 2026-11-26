@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Start Afk-bot
-      uses: Minionguyjpro/Afk-bot@v1.0.3
+      uses: Minionguyjpro/Afk-bot@v1.0.4
       with:
         ip: stallion-reporter.tun.ply.gg
         name: AFKBOT
