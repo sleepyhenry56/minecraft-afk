@@ -1,0 +1,14 @@
+on: push
+name: Run the AFK-Bot
+jobs:
+  join:
+    name: Join the server
+    runs-on: ubuntu-latest
+    steps:
+    - name: Start Afk-bot
+      uses: Minionguyjpro/Afk-bot@v1.0.3
+      with:
+        ip: stallion-reporter.tun.ply.gg
+        name: AFKBOT
+        port: 25565
+        auto-night-skip: true
